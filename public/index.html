@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogiland</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+
+    <div class="header container-fluid">
+      <img src="./assets/pl.png" alt="english" class="lang" />
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- LOGO and brand name -->
+
+        <a href="" class="navbar-brand"
+          ><img src="./assets/logo.png" alt="logo" class="logo"
+        /></a>
+        <h1 class="brand-name">Dogiland</h1>
+
+        <!-- Menu Button -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu items -->
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sec1">About us</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#sec2">Offer</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Intro  -->
+    <div class="container-fluid intro">
+      <div class="intro-text">
+        <h1>We are Dogiland</h1>
+        <p>
+          We are team of professional dog sitter. Your dog will enjoy every
+          minute in our hotel.
+        </p>
+      </div>
+    </div>
+
+    <!-- About us -->
+
+    <div class="container-fluid about" id="sec1">
+      <h1>Who we are</h1>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            We are team of professional dog sitter. Your dog will enjoy every
+            minute in our hotel.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/teaser2.png" alt="our_team" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Offer -->
+
+    <div class="container-fluid offer" id="sec2">
+      <h1>Our offer</h1>
+      <hr />
+      <h2>First, we have set of rules to follow</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/pet.png" alt="pet" id="pet" />
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Your dog must
+              have all the vaccination
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Your dog must
+              be a good boy/girl
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> You have to
+              be a good person
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Your dog must
+              not be loud
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2>Things to bring for your dog</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Your dog's
+              bed
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Your dog's
+              favorite toy
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Enough food
+              for entire stay
+            </li>
+            <li>
+              <img src="./assets/checkbox.png" class="checkbox" /> Snacks :)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/hotel.png" alt="hotel" id="hotel-png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Conact -->
+
+    <div class="container-fluid contact" id="sec3">
+      <h1>Contact us</h1>
+      <hr />
+      <form
+        action="https://formsubmit.co/nadir.macbook@gmail.com"
+        method="POST"
+      >
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              name="Name Surname"
+              id="firstName"
+              placeholder="Your name and surname"
+              required
+            />
+          </div>
+          <div class="col-sm-6">
+            <label for="Email" class="form-label"></label>
+            <input
+              type="email"
+              class="form-control"
+              name="Email"
+              placeholder="Your email address"
+              id="Email"
+              required
+            />
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="dogName" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              name="Dog name"
+              id="dogName"
+              placeholder="Your dog's name"
+              required
+            />
+          </div>
+          <div class="col-sm-6">
+            <label for="dogBreed" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control"
+              name="Dog breed"
+              placeholder="Your dog's breed"
+              id="Email"
+              required
+            />
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-12">
+            <label for="Message" class="form-label"></label>
+            <textarea
+              class="form-control"
+              name="Comments and questions"
+              id="Message"
+              rows="6"
+              placeholder="Type your message here"
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-9"></div>
+          <div class="col-sm-3">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+      <div class="row">
+        <div class="col-sm-6 socialmedia">
+          <a href="#"
+            ><img src="./assets/fb.png" alt="facebook" class="faceb"
+          /></a>
+          <a href="#">
+            <img src="./assets/ins.png" alt="instagram" class="insta"
+          /></a>
+        </div>
+        <div class="col-sm-6">
+          <p class="copyright">© 2023 All rights reserved. Dogiland</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+<!-- This website has been designed and developed by Nadir Zulfugarli -->

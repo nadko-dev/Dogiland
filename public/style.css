@@ -1,0 +1,219 @@
+html,
+body {
+  font-family: "Amatic SC", cursive;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+body p {
+  font-family: "Delius", cursive;
+}
+
+hr {
+  border-top: 1.5rem dotted #00917c;
+  width: 20%;
+  margin: 3% auto 3% auto;
+  align-content: center;
+}
+
+/* Navigation Bar */
+
+.header {
+  height: auto;
+  background-color: #00917c;
+}
+
+.lang {
+  height: 2rem;
+  float: right;
+  margin: 1%;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 0% 0% 0% 3%;
+  cursor: default;
+}
+
+.logo {
+  height: 10rem;
+  border-radius: 100%;
+}
+
+.brand-name {
+  padding-top: 1%;
+  color: #e7b10a;
+  font-size: 4rem;
+}
+
+.navbar-nav {
+  padding-right: 3%;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #e7b10a;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-toggler {
+    margin-top: 5%;
+  }
+}
+
+/* Intro text  */
+
+.intro {
+  height: auto;
+  background-color: #00917c;
+}
+
+.intro-text {
+  padding: 10%;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+.intro-text h1 {
+  font-size: 4rem;
+}
+
+/* About us  */
+
+.about {
+  height: auto;
+}
+
+.about h1 {
+  text-align: center;
+  padding-top: 5%;
+  color: #433520;
+  font-size: 4rem;
+}
+
+.about p {
+  text-align: center;
+  padding: 15%;
+  color: #433520;
+  font-size: 3rem;
+}
+
+.about img {
+  border-radius: 20%;
+  width: auto;
+  width: 20rem;
+}
+
+/* Offer */
+
+.offer {
+  height: auto;
+  margin-top: 5%;
+  color: #433520;
+}
+
+#pet,
+#hotel-png {
+  margin: 10%;
+  width: 20rem;
+  height: auto;
+}
+
+.offer h1 {
+  padding-top: 1.5%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.offer h2 {
+  padding-top: 1.5%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.offer ul {
+  list-style-type: none;
+  font-family: "Delius", cursive;
+  margin-top: 10%;
+}
+
+.offer li {
+  text-align: left;
+  font-size: 2rem;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.checkbox {
+  height: 2rem;
+}
+
+/* Contact  */
+
+.contact {
+  height: auto;
+  font-family: "Delius", cursive;
+}
+
+.contact h1 {
+  padding: 1.5%;
+  font-size: 4rem;
+  text-align: center;
+  color: #433520;
+  font-family: "Amatic SC", cursive;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 1.3rem;
+  background: #00917c;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-decoration: none;
+  margin: 0.5rem 0.5rem 1rem 2rem;
+}
+
+.btn:hover {
+  background: #e7b10a;
+  text-decoration: none;
+}
+
+/* Footer  */
+
+.footer {
+  height: auto;
+  background-color: #00917c;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.socialmedia img {
+  height: 2rem;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.insta:hover {
+  content: url("./assets/ins-hover.png");
+}
+
+.faceb:hover {
+  content: url("./assets/fb-hover.png");
+}
+
+.copyright {
+  float: right;
+  text-align: center;
+  margin: 5% 5% 5% auto;
+}
