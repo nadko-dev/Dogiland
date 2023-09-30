@@ -1,34 +1,92 @@
-/* This website has been designed and developed by Nadir Zulfugarli */
+/* This website has been designed and developed by Nadir Zulfugarli https://www.nadirdev.com */
 
 html,
 body {
-  font-family: "Amatic SC", cursive;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #fdf6f0;
+  color: #4b527e;
+  font-family: "Montserrat", sans-serif;
 }
 
-body p {
-  font-family: "Delius", cursive;
+p {
+  margin: 2%;
+  font-size: 1.3rem;
+}
+
+h1 {
+  padding-top: 0.5%;
+  font-size: 3rem;
+  text-align: center;
+  width: auto;
+  margin-top: 5%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  width: auto;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 5%;
 }
 
 hr {
   border-top: 1.5rem dotted #00917c;
   width: 20%;
-  margin: 3% auto 3% auto;
+  margin: 2% auto 2% auto;
   align-content: center;
+}
+
+a {
+  color: #4b527e;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+
+.image {
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  border: 0.5rem solid #4b527e;
+}
+
+@media screen and (max-width: 768) {
+  .image {
+    margin: 25%;
+    width: 50%;
+    height: auto;
+  }
 }
 
 /* Navigation Bar */
 
 .header {
   height: auto;
-  background-color: #00917c;
+  width: auto;
+  margin: 0%;
 }
 
 .lang {
-  height: 2rem;
-  float: right;
-  margin: 1%;
+  height: 1.7rem;
+  right: 2%;
+  margin: 1% auto 0% auto;
   cursor: pointer;
-  position: relative;
+  position: sticky;
+  float: right;
+}
+
+.lang:hover {
+  box-shadow: 0px 1px 26px 0px #279eff;
+  border-radius: 100%;
 }
 
 .navbar {
@@ -36,33 +94,39 @@ hr {
 }
 
 .navbar-brand {
-  padding: 0% 0% 0% 3%;
+  padding: 0% 0% 0% 2%;
   cursor: default;
 }
 
 .logo {
   height: 10rem;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .brand-name {
   padding-top: 1%;
-  color: #e7b10a;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  margin-top: 0%;
+  font-family: "Abril Fatface", cursive;
+}
+
+.brand-name:hover {
+  color: #279eff;
 }
 
 .navbar-nav {
   padding-right: 3%;
-  font-size: 2.5rem;
 }
 
 .nav-link {
-  color: white;
+  font-size: 1.4rem;
   font-weight: bold;
+  color: #4b527e;
 }
 
 .nav-link:hover {
-  color: #e7b10a;
+  color: #279eff;
 }
 
 @media screen and (max-width: 400px) {
@@ -71,135 +135,188 @@ hr {
   }
 }
 
-/* Intro text  */
+/* Intro */
 
 .intro {
+  text-align: center;
+}
+
+.intro img {
+  width: 50%;
   height: auto;
-  background-color: #00917c;
-}
-
-.intro-text {
-  padding: 10%;
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-}
-.intro-text h1 {
-  font-size: 4rem;
-}
-
-/* About us  */
-
-.about {
-  height: auto;
-}
-
-.about h1 {
-  text-align: center;
-  padding-top: 5%;
-  color: #433520;
-  font-size: 4rem;
-}
-
-.about p {
-  text-align: center;
-  padding: 15%;
-  color: #433520;
-  font-size: 3rem;
-}
-
-.about img {
-  border-radius: 20%;
-  width: auto;
-  width: 20rem;
 }
 
 /* Offer */
 
 .offer {
-  height: auto;
   margin-top: 5%;
-  color: #433520;
 }
 
-#pet,
-#hotel-png {
+/* Prices */
+.card {
+  width: 90%;
+  height: 100%;
+  margin: auto 5%;
+  border: 0.5rem solid #4b527e;
+  background-color: #fdf6f0;
+}
+
+.card-text {
+  font-size: 1.3vw;
+}
+
+.card-img-top {
+  width: 80%;
   margin: 10%;
-  width: 20rem;
-  height: auto;
 }
 
-.offer h1 {
-  padding-top: 1.5%;
-  font-size: 4rem;
+.price-tag {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2vw;
   text-align: center;
 }
 
-.offer h2 {
-  padding-top: 1.5%;
-  font-size: 3rem;
-  text-align: center;
+@media screen and (max-width: 575px) {
+  .card {
+    width: 76%;
+    height: 100%;
+    margin: auto 12%;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+  .price-tag {
+    font-size: 2rem;
+  }
+  .col-sm-3 {
+    margin-bottom: 5%;
+  }
 }
 
-.offer ul {
-  list-style-type: none;
-  font-family: "Delius", cursive;
-  margin-top: 10%;
-}
-
-.offer li {
-  text-align: left;
-  font-size: 2rem;
-  padding-left: 10%;
-  padding-top: 3%;
-}
+/* Rules */
 
 .checkbox {
-  height: 2rem;
+  height: 1.5rem;
+}
+
+/* Gallery */
+
+.gallery {
+  height: auto;
+  position: relative;
+}
+
+.gallery * {
+  box-sizing: border-box;
+}
+
+.gallery img {
+  vertical-align: middle;
+  width: 60%;
+  margin: 2% 20% 2% 20%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+  width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  background-color: #4b527e;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #279eff;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 11.11%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
 /* Contact  */
 
 .contact {
   height: auto;
-  font-family: "Delius", cursive;
-}
-
-.contact h1 {
-  padding: 1.5%;
-  font-size: 4rem;
   text-align: center;
-  color: #433520;
-  font-family: "Amatic SC", cursive;
 }
 
-.btn {
-  color: #ffffff;
-  font-size: 1.3rem;
-  background: #00917c;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-  text-decoration: none;
-  margin: 0.5rem 0.5rem 1rem 2rem;
+.map {
+  width: 80%;
+  height: 500px;
+  margin: 2% 10% 5% 10%;
 }
 
-.btn:hover {
-  background: #e7b10a;
+.contact img {
+  height: 1.7rem;
+}
+
+.contact img:hover {
+  content: url("./assets/phone-hover.png");
+}
+
+.contact a {
   text-decoration: none;
+  color: #4b527e;
+}
+
+.contact a:hover {
+  color: #279eff;
 }
 
 /* Footer  */
 
 .footer {
   height: auto;
-  background-color: #00917c;
-  color: white;
-  font-size: 1.5rem;
+}
+
+.footer a:hover {
+  color: #279eff;
 }
 
 .socialmedia img {
-  height: 2rem;
-  margin-left: 5%;
-  margin-top: 5%;
+  height: 1.4rem;
+  float: left;
+  margin: 2% auto 2% 4%;
 }
 
 .insta:hover {
@@ -211,7 +328,9 @@ hr {
 }
 
 .copyright {
-  float: right;
   text-align: center;
-  margin: 5% 5% 5% auto;
+  margin-top: 3.5%;
+  right: 1%;
+  font-size: 1.1rem;
+  width: auto;
 }
