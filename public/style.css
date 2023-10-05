@@ -108,7 +108,8 @@ ul {
   padding-top: 1%;
   font-size: 3.5rem;
   margin-top: 0%;
-  font-family: "Abril Fatface", cursive;
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: "Cooper Black", sans-serif;
 }
 
 .brand-name:hover {
