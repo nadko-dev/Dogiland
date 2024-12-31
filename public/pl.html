@@ -1,0 +1,632 @@
+<!-- This website has been designed and developed by Nadir Zulfugarli https://www.nadirdev.com -->
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogiland</title>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet" />
+
+    <!-- Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+
+    <div class="header container-fluid">
+      <a href="en.html"
+        ><img src="./assets/uk.png" alt="round uk flag" class="lang"
+      /></a>
+
+      <!-- LOGO and brand name -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand"
+          ><img src="./assets/logo.png" alt="logo" class="logo"
+        /></a>
+        <a href="index.html"><h1 class="brand-name">Dogiland</h1></a>
+
+        <!-- Menu Button -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu items -->
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sec1">Oferta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec2">Cennik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec3">Zasady</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec4">O nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec5">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec6">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Intro -->
+
+    <div class="container-fluid intro">
+      <img src="./assets/fun.png" alt="dog hotel illustration" />
+      <h1>Dogiland hotel dla psów</h1>
+      <hr />
+      <p>
+        Dogiland to hotel dostosowujący się do psich potrzeb. Oferujemy
+        całodobową indywidualną opiekę w domowych warunkach, bez kojców i
+        klatek. Twój pupil uczestniczy w naszym życiu codziennym, co zapobiega
+        powstawaniu stresu związanego z rozłąką. Naszym podopiecznym zapewniamy
+        bezpieczeństwo, relaks oraz co najważniejsze dobrą zabawę! Nasz hotel
+        znajduje się w dwóch lokalizacjach, dzięki czemu jeszcze lepiej możemy
+        dostosować się do potrzeb naszych gości.
+      </p>
+    </div>
+
+    <!-- Offer -->
+
+    <h1 id="sec1">Nasza oferta</h1>
+    <hr />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-5">
+          <img src="./assets/nest.jpg" alt="Apartment photo" class="image" />
+        </div>
+        <div class="col-sm-7">
+          <h2>Dogiland Mokotów</h2>
+          <p>
+            Do dyspozycji mamy mieszkanie w starej kamienicy przystosowane dla
+            naszych mniejszych psich podopiecznych z wydzieloną strefą zabaw i
+            wypoczynku. Maty węchowe, zabawki edukacyjne i gryzaki umilą czas
+            nawet najbardziej wymagającym psim gościom. Pobliskie Pola
+            Mokotowskie służą nam do dłuższych spacerów i relaksu na świeżym
+            powietrzu. <br />
+            <i> Maksymalna ilość gości nie przekracza 3 psów.</i>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-7">
+          <h2>Dogiland Chrośla</h2>
+          <p>
+            Do dyspozycji gości mamy przestronny salon z wygodnymi kanapami, 2
+            pokoje z posłankami i kocykami, w których pieski mogą odpocząć,
+            jeżeli mają ochotę na chwilę samotności, zabezpieczony ogród
+            przystosowany do zabaw i psich potrzeb, mnóstwo zabawek i naszą psią
+            animatorkę Ginny, która zawsze jest skora do zabawy. A na dłuższe
+            spacery zabieramy naszych podopiecznych do pobliskiego lasu. <br />
+            <i>Maksymalna ilość gości nie przekracza 7 psów.</i>
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <img src="./assets/dom.jpg" alt="House photo" class="image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Price -->
+
+    <h1 id="sec2">Cennik</h1>
+    <hr />
+    <div class="container-fluid row">
+      <div class="col-sm-3">
+        <div class="card">
+          <img class="card-img-top" src="./assets/1dog24h.png" alt="dog icon" />
+          <div class="card-body">
+            <p class="card-text">Doba hotelowa</p>
+            <p class="price-tag">100 zł brutto</p>
+            <p class="card-text">Pobyt dzienny psa do 10 godzin</p>
+            <p class="price-tag">75 zł brutto</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./assets/2dogs24h.png"
+            alt="2 dogs icons"
+          />
+          <div class="card-body">
+            <p class="card-text">Dwa psy z tego samego domu</p>
+            <p class="price-tag">150 zł brutto</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./assets/weekend.png"
+            alt="weekend icon"
+          />
+          <div class="card-body">
+            <p class="card-text">Pobyt weekendowy (piątek - niedziela)</p>
+            <p class="price-tag">350 zł brutto</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./assets/transport.png"
+            alt="car icon"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Możliwy transport z Dogiland Mokotów do Dogiland Chrośla po
+              wcześniejszym umówieniu w cenie
+            </p>
+            <p class="price-tag">50 zł brutto</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rules -->
+
+    <h1 id="sec3">Zasady</h1>
+    <hr />
+    <div class="container-fluid">
+      <p>
+        Przed pierwszą wizytą w hotelu zapraszamy na wizytę zapoznawczą (prosimy
+        o wcześniejsze ustalenie terminu). Przyjęcia i odbiory psów odbywają się
+        w godzinach od 8 do 20 po wcześniejszym umówieniu, jeśli jest to
+        pierwsza wizyta w hoteliku bez wcześniejszej wizyty zapoznawczej,
+        prosimy o przywiezienie psa do godziny 17:00, będzie to dodatkowy czas
+        na zapoznanie się z miejscem, z nami oraz innymi psami przed porą nocną.
+        <br />Każdy pies przyjmowany do hoteliku powinien posiadać:
+      </p>
+      <ul>
+        <li>
+          <img
+            src="./assets/checkbox.png"
+            alt="checkbox icon"
+            class="checkbox"
+          />
+          książeczkę zdrowia z aktualnymi szczepieniami i odrobaczeniem
+        </li>
+        <li>
+          <img
+            src="./assets/checkbox.png"
+            alt="checkbox icon"
+            class="checkbox"
+          />
+          zabezpieczenie przeciw kleszczom
+        </li>
+        <li>
+          <img
+            src="./assets/checkbox.png"
+            alt="checkbox icon"
+            class="checkbox"
+          />
+          karmę oraz smakołyki na czas pobytu (oraz zalecenia co do karmienia,
+          ilość i godzina)
+        </li>
+        <li>
+          <img
+            src="./assets/checkbox.png"
+            alt="checkbox icon"
+            class="checkbox"
+          />
+          obrożę lub szelki
+        </li>
+      </ul>
+      <h2>Nie przyjmujemy psów:</h2>
+      <ul>
+        <li>
+          <img
+            src="./assets/remove.png"
+            alt="not allowed icon"
+            class="checkbox"
+          />
+          agresywnych do innych zwierząt i ludzi
+        </li>
+        <li>
+          <img
+            src="./assets/remove.png"
+            alt="not allowed icon"
+            class="checkbox"
+          />
+          cierpiących na choroby zakaźne, np. choroby skórne
+        </li>
+        <li>
+          <img
+            src="./assets/remove.png"
+            alt="not allowed icon"
+            class="checkbox"
+          />
+          w trakcie cieczki
+        </li>
+        <li>
+          <img
+            src="./assets/remove.png"
+            alt="not allowed icon"
+            class="checkbox"
+          />
+          załatwiających potrzeby fizjologiczne w domu (nie dotyczy psów
+          przyzwyczajonych do załatwiania na podkład).
+        </li>
+      </ul>
+    </div>
+
+    <!-- About us -->
+
+    <h1 id="sec4">O nas</h1>
+    <hr />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <img
+            src="./assets/Natalia.jpg"
+            class="image"
+            alt="Photo of Natalia"
+          />
+        </div>
+        <div class="col-md-3">
+          <h2>Natalia Gan</h2>
+          <p>
+            Założycielka hotelu Dogiland. <br />
+            Zootechnik, zoofizjoterapeuta, po ukończonym kursie pierwszej pomocy
+            zwierząt, w trakcie kursu Behawiorysta Coape.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets/Kamila.jpg" alt="Photo of Kamila" class="image" />
+        </div>
+        <div class="col-md-3">
+          <h2>Kamila Gan</h2>
+          <p>
+            Współpracownik hotelu Dogiland. <br />
+            Zoofizjoterapeuta, właścicielka hotelowej psiej animatorki Ginny.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+
+    <h1 id="sec5">Galeria</h1>
+    <hr />
+    <div class="container-fluid gallery">
+      <div class="mySlides">
+        <img src="./assets/1.jpg" alt="Dog photo" />
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/2.jpg" alt="Dog photo" />
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/3.jpg" alt="Dog photo" />
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/4.jpg" alt="Dog photo" />
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/5.jpg" alt="Dog photo" />
+      </div>
+
+      <div class="mySlides">
+        <img src="./assets/6.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/7.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/8.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/9.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/10.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/11.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/12.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/13.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/14.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/15.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/16.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/17.jpg" alt="Dog photo" />
+      </div>
+      <div class="mySlides">
+        <img src="./assets/18.jpg" alt="Dog photo" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/1.jpg"
+            onclick="currentSlide(1)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/2.jpg"
+            onclick="currentSlide(2)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/3.jpg"
+            onclick="currentSlide(3)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/4.jpg"
+            onclick="currentSlide(4)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/5.jpg"
+            onclick="currentSlide(5)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/6.jpg"
+            onclick="currentSlide(6)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/7.jpg"
+            onclick="currentSlide(7)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/8.jpg"
+            onclick="currentSlide(8)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/9.jpg"
+            onclick="currentSlide(9)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/10.jpg"
+            onclick="currentSlide(10)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/11.jpg"
+            onclick="currentSlide(11)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/12.jpg"
+            onclick="currentSlide(12)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/13.jpg"
+            onclick="currentSlide(13)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/14.jpg"
+            onclick="currentSlide(14)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/15.jpg"
+            onclick="currentSlide(15)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/16.jpg"
+            onclick="currentSlide(16)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/17.jpg"
+            onclick="currentSlide(17)"
+            alt="Dog photo"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./assets/18.jpg"
+            onclick="currentSlide(18)"
+            alt="Dog photo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Conact -->
+
+    <h1 id="sec6">Skontaktuj się z nami</h1>
+    <hr />
+    <div class="container-fluid contact">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Dogiland Mokotów</h2>
+          <p>
+            ul. Dąbrowskiego 83 <br />
+            Warszawa, 02-503 <br />
+            <a href="mailto:hoteldogiland@gmail.com">hoteldogiland@gmail.com</a
+            ><br />
+            <a href="tel:+48500552762">
+              <img
+                src="./assets/phone.png"
+                alt="phone icon"
+              />&nbsp;+48500552762</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h2>Dogiland Chrośla</h2>
+          <p>
+            ul. Wrzosowa 2 <br />
+            Chrośla, 05-311 <br />
+            <a href="mailto:hoteldogiland@gmail.com">hoteldogiland@gmail.com</a
+            ><br />
+            <a href="tel:+48504656006">
+              <img
+                src="./assets/phone.png"
+                alt="phone icon"
+              />&nbsp;+48504656006</a
+            >
+          </p>
+        </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/d/u/0/embed?mid=1MlDSPwpTsh-250c1qh4U65HbMxZmzfA&ehbc=2E312F"
+        class="map"
+      ></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+      <div class="row">
+        <div class="col-sm-4 socialmedia">
+          <a href="https://www.facebook.com/dogiland" target="_blank"
+            ><img src="./assets/fb.png" alt="facebook icon" class="faceb"
+          /></a>
+          <a href="https://www.instagram.com/dogiland" target="_blank">
+            <img src="./assets/ins.png" alt="instagram icon" class="insta"
+          /></a>
+        </div>
+        <div class="col-sm-4">
+          <p class="copyright">
+            Zaprojektowane przez
+            <a href="https://nadirdev.com/" target="_blank"
+              >Nadira Zulfugarli</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p class="copyright">© 2024 Wszelkie prawa zastrzeżone. Dogiland</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
